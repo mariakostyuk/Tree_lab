@@ -1,0 +1,59 @@
+object FTree: TFTree
+  Left = 0
+  Top = 0
+  Caption = 'FTree'
+  ClientHeight = 490
+  ClientWidth = 872
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PnlControl: TPanel
+    Left = 772
+    Top = 0
+    Width = 100
+    Height = 490
+    Align = alRight
+    TabOrder = 0
+    object BRefresh: TButton
+      Left = 1
+      Top = 1
+      Width = 98
+      Height = 57
+      Align = alTop
+      Caption = 'BRefresh'
+      TabOrder = 0
+      OnClick = BRefreshClick
+    end
+    object ESearch: TEdit
+      Left = 1
+      Top = 99
+      Width = 98
+      Height = 21
+      Align = alTop
+      TabOrder = 1
+    end
+    object Prasd: TPanel
+      Left = 1
+      Top = 58
+      Width = 98
+      Height = 41
+      Align = alTop
+      TabOrder = 2
+    end
+    object BGarbachev: TButton
+      Left = 16
+      Top = 233
+      Width = 75
+      Height = 25
+      Caption = 'BGarbachev'
+      TabOrder = 3
+    end
+  end
+end
